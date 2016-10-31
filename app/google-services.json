@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "348487876574",
+    "firebase_url": "https://admob-app-id-5489821027.firebaseio.com",
+    "project_id": "admob-app-id-5489821027",
+    "storage_bucket": "admob-app-id-5489821027.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348487876574:android:4c0f10352c1175b5",
+        "android_client_info": {
+          "package_name": "com.ameerhamza6733.urdunews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348487876574-saoaro2t84pdiak598imb998dnu6klqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIWt_QVkIdrE2ewPrpyJguiPThL2YEkDo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348487876574:android:2de4163b8afef5f8",
+        "android_client_info": {
+          "package_name": "com.ameerhamza6733.latest.newsUpdatesPakistan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348487876574-saoaro2t84pdiak598imb998dnu6klqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIWt_QVkIdrE2ewPrpyJguiPThL2YEkDo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

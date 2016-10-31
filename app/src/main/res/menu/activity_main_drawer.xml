@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/All"
+
+            android:title="All News" />
+        <item
+            android:id="@+id/Home_Page"
+
+            android:title="Home Page " />
+        <item
+            android:id="@+id/pakistan"
+
+            android:title="Pakistan (پاکستان)" />
+        <item
+            android:id="@+id/business"
+
+            android:title="Business (بزنس)" />
+        <item
+            android:id="@+id/world"
+
+            android:title="world (انٹر نیشنل)" />
+        <item
+            android:id="@+id/sports"
+
+            android:title="Sports (کھیل)" />
+        <item
+            android:id="@+id/magazine"
+
+            android:title="Magazine (میگزین)" />
+
+        <item
+            android:id="@+id/science"
+
+            android:title="Science (سائنس/ٹیکنالوجی)" />
+        <item
+            android:id="@+id/weird_new"
+
+            android:title="Weird new (دلچسپ و عجیب)" />
+        <item
+            android:id="@+id/saqafat"
+
+            android:title="Saqafat (شوبز)" />
+
+
+        <item android:title="Extra">
+            <menu>
+                <item
+                    android:id="@+id/nav_rate"
+
+                    android:title="Rate App" />
+                <item
+                    android:id="@+id/nav_send"
+
+                    android:title="Send FeedBack" />
+            </menu>
+        </item>
+
+
+
+
+    </group>
+
+
+
+</menu>

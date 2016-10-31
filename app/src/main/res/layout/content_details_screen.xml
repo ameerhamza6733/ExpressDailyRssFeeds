@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_details_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ameerhamza6733.latest.newsUpdatesPakistan.UI.DetailsScreen"
+    tools:showIn="@layout/activity_details_screen">
+
+
+<ScrollView
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="UselessParent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myRelativelayout"
+        ><TextView
+            android:text="چڑیوں کی طرح مچھلیاں بھی صبح کے وقت چہچہاتی ہیں، تحقیق"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/mDetailTitle"
+            android:layout_alignParentTop="true"
+            android:padding="8dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:padding="8dp"
+            android:id="@+id/mDetailTimeTextView"
+
+            android:text="Sat, 24 Sep 2016 04:18:44"
+            android:layout_below="@+id/mDetailTitle"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="9dp"
+            android:layout_marginEnd="9dp" />
+
+        <View
+            android:layout_below="@+id/mDetailTimeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mDetailImageView"
+
+            android:padding="8dp"
+            android:layout_below="@+id/mDetailTimeTextView"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false" />
+
+
+        <com.google.android.gms.ads.NativeExpressAdView
+            android:id="@+id/adView2"
+            android:layout_below="@+id/mDetailImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            ads:adUnitId="ca-app-pub-2042383951427959/2444649429"
+            ads:adSize="320x150"
+
+
+
+        />
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/adView2"
+            android:padding="8dp"
+            android:layout_marginTop="21dp"
+            android:id="@+id/mDetailDetails"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+</ScrollView>
+
+</RelativeLayout>
